@@ -37,39 +37,6 @@ The goal of this project is to build an autonomous scooter with advanced mapping
 - **Teleoperation**:
   - Joystick-based control for manual navigation with real-time feedback
 
-## Getting Started
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/autonomous-scooter.git
-    cd autonomous-scooter
-    ```
-
-2. **Install Dependencies**:
-    Ensure you have ROS and TensorFlow installed. You may also need other Python packages as listed in `requirements.txt`.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Hardware Setup**:
-    - Assemble the components as per the hardware guide.
-    - Connect the Jetson Nano to the Lidar, Camera, and Servo Motors.
-
-4. **Run the Scripts**:
-    - Use the teleoperation script for manual control:
-        ```bash
-        python teleop_control.py
-        ```
-    - For autonomous mode, ensure Lidar and Camera feeds are connected and run:
-        ```bash
-        python autonomous_navigation.py
-        ```
-
-## Project Structure
-
-- `src/`: Contains the core codebase for teleoperation, autonomous navigation, and perception modules.
-- `docs/`: Includes project documentation, setup guides, and hardware assembly instructions.
-- `requirements.txt`: Python dependencies for the project.
 
 ## Future Scope
 
